@@ -1,0 +1,173 @@
+body
+{
+
+    font-family: arial;
+    height: 100%;
+   
+}
+input
+{
+    display: block;
+}
+
+
+.first-part
+{
+    display: block;
+}
+
+.main-page
+{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;  
+   
+}
+.chat
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10rem;
+    
+    
+}
+.message
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.lets
+{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+.first-grid
+{
+    flex: 0.3;
+}
+.second-grid
+{
+    flex: 0.7;
+}
+.create
+{
+    color: grey;
+}
+.mail
+{
+   color: purple;
+}
+.mail-body
+{
+    border-style: solid;
+   
+    padding-left: 20px;
+    border-width: 0.1px;
+    border-color: rgb(207, 207, 207);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.sub-div
+{
+   
+    margin-top: 120px;
+    width: 440px;
+    height: 550px;
+    border-radius: 8px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-width: 0.1px;
+    border-color: rgb(210, 210, 210);
+}
+.one
+{
+    color: black;
+    font-size: 27px;
+    margin-left: 20px;
+}
+.second
+{
+    width: 360px;
+    height: 27px;
+    border-radius: 6px;
+    padding-left: 9px;
+    border-color: purple;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.third
+{
+    width: 360px;
+    height: 27px;
+    border-radius: 2px;
+    padding-left: 9px;
+    border-color: purple;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+.fourth
+{
+    width: 360px;
+    height: 27px;
+    border-radius: 2px;
+    padding-left: 9px;
+    border-color: purple;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+.fifth
+{
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+.sixth
+{
+    width: 360px;
+    height: 77px;
+    border-radius: 7px;
+    padding-left: 9px;
+    border-color: purple;
+    border-style: solid;
+    margin-bottom: 17px;
+    margin-left: 20px;
+}
+.seventh
+{
+    height: 45px;
+    width: 150px;
+    border-radius: 9px;
+    background-color: rgb(129, 13, 237);
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 2px grey;
+}
+.part1
+{
+    flex: 0.4;
+}
+.part2
+{
+    flex: 0.6;
+}
+.emoji
+{
+    font-size: 40px;
+   
+}
